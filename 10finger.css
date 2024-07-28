@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#title{
+    height: 50px;
+    font-size: large;
+}
+.background {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 8px;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-bottom: 2px;
+}
+
+#input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#timer {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
+
+#keyboard-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.key-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.key {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.key.active {
+    background-color: #007bff;
+    color: #fff;
+}
